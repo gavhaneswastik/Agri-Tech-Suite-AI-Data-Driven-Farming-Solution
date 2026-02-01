@@ -9,6 +9,11 @@ __pycache__/
 # Distribution / packaging
 .Python
 build/
+.env
+node_modules/
+*.h5
+plant_disease_detections/plant_disease_prediction_model.h5
+node_modules/
 develop-eggs/
 dist/
 downloads/
