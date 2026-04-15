@@ -1,1 +1,66 @@
-.venv/
+# Python environment folders
+myenv/
+tf_env/
+venv/
+ENV/
+env/
+.python-version
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Distribution / packaging
+*.egg-info/
+*.egg
+*.dist-info/
+build/
+dist/
+*.manifest
+*.spec
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Model and dataset artifacts
+*.h5
+*.keras
+*.zip
+*.tar.gz
+*.tgz
+
+# MacOS and Windows temporary files
+*.swp
+*.swo
+*~
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# VS Code workspace storage
+.vscode/
+
+# dotenv files
+.env
+
+# Local Python package installs
+pip-wheel-metadata/
