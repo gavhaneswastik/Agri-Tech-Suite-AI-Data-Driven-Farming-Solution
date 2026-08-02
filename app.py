@@ -1,4 +1,3 @@
-
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -122,4 +121,3 @@ options = {
 
 choice = st.sidebar.radio("Choose a module:", list(options.keys()))
 options[choice]()  # Call the selected module
-

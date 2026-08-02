@@ -36,6 +36,7 @@ dist/
 .DS_Store
 Thumbs.db
 
+
 # Model and dataset artifacts
 *.h5
 *.keras
